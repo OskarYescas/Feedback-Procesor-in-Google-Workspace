@@ -19,7 +19,7 @@ Setup Instructions
 Follow these steps to replicate the entire workflow.
 
 
-1. Create the Google Form
+1- Create the Google Form
 This will be the starting point for your data.
 
 Go to forms.google.com and create a new form.
@@ -31,7 +31,7 @@ Add the questions that will be sent to the script. For this project, we used:
 - Comments
 
 
-2. Set Up the Google Apps Script Webhook
+2- Set Up the Google Apps Script Webhook
 This script will act as the backend logic processor.
 
 1. Go to script.google.com and create a new project.
@@ -49,7 +49,7 @@ This script will act as the backend logic processor.
   - Copy the Web app URL. It will end in /exec. This is your webhook endpoint.
 
 
-3. Configure the AppSheet Application
+3- Configure the AppSheet Application
 This app connects the form to the script.
 
 1. Go to appsheet.com and create a new app.
