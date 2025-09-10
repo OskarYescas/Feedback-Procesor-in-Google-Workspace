@@ -37,9 +37,9 @@ This script will act as the backend logic processor.
   - Click Deploy > New deployment.
   - Click the gear icon and select Web app.
   - Configure the deployment with the following settings:
-    > Description: Feedback Processor v1
-    > Execute as: Me (Your Google Account)
-    > Who has access: Anyone
+    - Description: Feedback Processor v1
+    - Execute as: Me (Your Google Account)
+    - Who has access: Anyone
   - Click Deploy.
   - Authorize the script to grant it permission to send emails on your behalf.
   - Copy the Web app URL. It will end in /exec. This is your webhook endpoint.
