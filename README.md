@@ -57,8 +57,8 @@ This app connects the form to the script.
 3. In the AppSheet editor, go to the Automation tab 🤖.
 4. Create a new Bot and name it Process New Feedback.
 5. Configure the Event:
-  - Set the Event Type to Data Change and the Table to your form's data table.
-  - Set the Data Change Type to Adds only. This ensures the bot only runs for new entries.
+  - Set the Event source as FORMS.
+  - Select the form you jsut created as the Form whose responses trigger the event.
 6. Configure the Process Step:
   - Add a new step and choose Call a webhook.
   - URL: Paste the /exec URL you copied from the Apps Script deployment.
