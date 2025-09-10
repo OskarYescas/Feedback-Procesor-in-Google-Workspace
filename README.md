@@ -18,8 +18,10 @@ Before you begin, ensure you have the following:
 Setup Instructions
 Follow these steps to replicate the entire workflow.
 
+
 1. Create the Google Form
 This will be the starting point for your data.
+
 Go to forms.google.com and create a new form.
 Add the questions that will be sent to the script. For this project, we used:
 - What's your name?
@@ -28,8 +30,10 @@ Add the questions that will be sent to the script. For this project, we used:
 - Overall rating
 - Comments
 
+
 2. Set Up the Google Apps Script Webhook
 This script will act as the backend logic processor.
+
 1. Go to script.google.com and create a new project.
 2. Name the project Feedback Processor Webhook.
 3. Delete the default Code.gs content and paste the code from the feedback_processor.gs file.
@@ -43,9 +47,11 @@ This script will act as the backend logic processor.
   - Click Deploy.
   - Authorize the script to grant it permission to send emails on your behalf.
   - Copy the Web app URL. It will end in /exec. This is your webhook endpoint.
-  - 
+
+
 3. Configure the AppSheet Application
 This app connects the form to the script.
+
 1. Go to appsheet.com and create a new app.
 2. Choose Start with existing data and select the Google Form you created in Step 1 as your data source.
 3. In the AppSheet editor, go to the Automation tab 🤖.
@@ -59,6 +65,7 @@ This app connects the form to the script.
   - HTTP Verb: POST
   - Body: Paste the body.json template. Ensure the keys in the template exactly match your Google Form's column headers.
 7. Save your bot.
+
 
 How to Test
 1. Open your live Google Form and submit a new entry.
